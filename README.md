@@ -15,12 +15,12 @@ The project contains the following packages:
 - **service** - service classes communicating with the repository.
 - **utils** - utility classes for filtering the data.
 
-### How To Use / How It Works
+### How To Use
 
 Run the application on port 8080 or your chosen port (by overriding the value in the properties file). Once the application 
 is up and running head over to your browser and send a request to **http://localhost:8080/api/v1/chart**.
 
-You should now be able to see the followuing:
+You should now be able to see the following:
 ![](chart-table.png)
 
 **Run With Docker**

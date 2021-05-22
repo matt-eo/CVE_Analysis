@@ -23,7 +23,7 @@ is up and running head over to your browser and send a request to **http://local
 You should now be able to see the following:
 ![](chart-table.png)
 
-**Run With Docker**
+### Run With Docker
 
 If you prefer to run the application with Docker head over to the **docker** folder and from within the terminal run:
 **docker build . -t <your-preferred-tag>** and then **docker run --name <container-name> -p 8080:8080 -d <your-image-tag>**

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/api/v1/")
 public class ChartController {
 
   private final ChartService chartService;

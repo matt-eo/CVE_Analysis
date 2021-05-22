@@ -13,7 +13,7 @@ import java.util.List;
 public class ChartServiceImpl implements ChartService {
 
   private final ChartData chartData;
-  private FilteredListGeneratorUtil filteredListGeneratorUtil;
+  private final FilteredListGeneratorUtil filteredListGeneratorUtil;
 
   public ChartServiceImpl(
       ChartData chartData, FilteredListGeneratorUtil filteredListGeneratorUtil) {

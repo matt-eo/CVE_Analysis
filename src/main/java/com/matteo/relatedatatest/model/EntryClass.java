@@ -7,6 +7,11 @@ public abstract class EntryClass {
     protected int highCount;
     protected int criticalCount;
 
+    /**
+     * Increments the relevant count according to the
+     * specified security level
+     * @param severityLevels - the security level
+     */
     public void increment(SeverityLevels severityLevels) {
         switch (severityLevels) {
             case LOW:

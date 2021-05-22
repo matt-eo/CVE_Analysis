@@ -11,6 +11,12 @@ public class TableEntry extends EntryClass implements Entry {
         this.year = String.valueOf(dateTime.getYear());
     }
 
+    /**
+     * Returns the fields as a list - this format is required
+     * for Google charts to work
+     *
+     * @return - the fields as list
+     */
     @Override
     public List<Object> getFieldsAsList() {
         return List.of(year, lowCount, mediumCount, highCount, criticalCount);

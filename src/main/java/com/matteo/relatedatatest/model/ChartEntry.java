@@ -18,6 +18,12 @@ public class ChartEntry extends EntryClass implements Entry {
     this.monthYear = dateTime.getMonth().toString() + dateTime.getYear();
   }
 
+  /**
+   * Returns the fields as a list - this format is required
+   * for Google charts to work
+   *
+   * @return - the fields as list
+   */
   @Override
   public List<Object> getFieldsAsList() {
     return List.of(monthYear, lowCount, mediumCount, highCount, criticalCount);

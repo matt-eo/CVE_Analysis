@@ -1,5 +1,5 @@
 # CVE_Data_Analysis
-#### Candidate: MATT(EO) DI GREGORIO
+#### Author: MATT(EO) DI GREGORIO
 #### Position: Junior Java Developer
 #### matteodgrgr@gmail.com
 
